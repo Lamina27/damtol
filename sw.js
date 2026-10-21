@@ -1,6 +1,6 @@
 /* damtol service worker: the page is fetched from the network first (a new version arrives whenever the
    phone is online) and served from this cache when offline; icons, manifest and fonts come from the cache. */
-const CACHE = "damtol-2.53.3";
+const CACHE = "damtol-2.53.4";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
