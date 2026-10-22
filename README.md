@@ -1,6 +1,6 @@
 # damtol
 
-Web app analisis damage tolerance dan fatigue (pesawat transport, militer, rotorcraft), versi 2.54.3.
+Web app analisis damage tolerance dan fatigue (pesawat transport, militer, rotorcraft), versi 2.54.4.
 
 **Buka:** https://lamina27.github.io/damtol/
 
